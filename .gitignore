@@ -1,0 +1,46 @@
+#built application files
+*.apk
+*.ap_
+*.aab
+                           
+# files for the dex VM
+*.dex
+                            
+# Java class files
+*.class
+                            
+# generated files
+bin/
+gen/
+                            
+# Local configuration file (sdk path, etc)
+local.properties
+                        
+# Windows thumbnail db
+Thumbs.db
+                
+# OSX files
+.DS_Store
+                            
+# Android Studio
+*.iml
+.idea
+#.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
+.gradle
+build/
+.navigation
+captures/
+output.json 
+    
+#NDK
+obj/
+.externalNativeBuild
+.gradle/7.3.3/executionHistory/executionHistory.bin
+.gradle/7.3.3/executionHistory/executionHistory.lock
+.gradle/7.3.3/fileHashes/fileHashes.bin
+.gradle/7.3.3/fileHashes/fileHashes.lock
+.gradle/7.3.3/fileHashes/resourceHashesCache.bin
+.gradle/buildOutputCleanup/buildOutputCleanup.lock
+.gradle/buildOutputCleanup/outputFiles.bin
+.gradle/file-system.probe
+local.properties
