@@ -42,14 +42,14 @@
   //check if new server request or post request
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
-    //if post request connect to database
-    $serverName = "localhost";
+    //if post request connects to database
 
-    //connect to your database that you ran mailer.mysql file on
+    //connect to your mailerDB database that you set up with the mailer.mysql file
+    $serverName = "localhost";
     $userName = "databaseUsername";
     $password = "databasePassword";  
      
-    $dbName = "maildb";
+    $dbName = "mailDB";
     $connection = mysqli_connect($serverName, $userName, $password, $dbName);
     if (mysqli_connect_errno()) {
       echo "Failed to connection";

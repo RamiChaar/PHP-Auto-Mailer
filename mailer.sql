@@ -34,16 +34,6 @@ CREATE TABLE `messages` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `messages`
---
-
-LOCK TABLES `messages` WRITE;
-/*!40000 ALTER TABLE `messages` DISABLE KEYS */;
-INSERT INTO `messages` VALUES (1,1,'chaarrami22@gmail.com','This is the message to be sent at 12:30 AM on 12/4/22.','2022-12-04 00:30:00','true'),(2,2,'chaarrami22@gmail.com','2nd message to be sent at 12:30 AM on 12/4/22','2022-12-04 00:30:00','true'),(3,4,'rami.chaar.383@my.csun.edu','This message will be sent on new years eve','2022-12-31 23:30:00','false'),(4,4,'rami.chaar.383@my.csun.edu','This message will be sent on december 10, 2022 at 12 pm','2022-12-10 12:00:00','false');
-/*!40000 ALTER TABLE `messages` ENABLE KEYS */;
-UNLOCK TABLES;
-
---
 -- Table structure for table `users`
 --
 
@@ -59,14 +49,8 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
---
--- Dumping data for table `users`
---
 
-LOCK TABLES `users` WRITE;
-UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
-
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;

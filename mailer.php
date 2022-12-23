@@ -13,16 +13,16 @@ $transport = (new Swift_SmtpTransport('smtp.gmail.com', 587, 'tls'))->setUsernam
 $mailer = new Swift_Mailer($transport);
 
 //connect to database
-$serverName = "localhost";
 
-//connect to your database that you ran mailer.mysql file on
+//connect to your mailerDB database that you set up with the mailer.mysql file
+$serverName = "localhost";
 $userName = "databaseUsername";
 $password = "databasePassword";
 
-$dbName = "maildb";
+$dbName = "mailerDB";
 $connection = mysqli_connect($serverName, $userName, $password, $dbName);
 if (mysqli_connect_errno()) {
-  echo "Failed to connection";
+  echo "Failed to connect";
   exit();
 }
 
